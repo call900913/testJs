@@ -3,11 +3,8 @@
   <head>
     <title>JS test</title>
     <meta charset="utf-8">
+    <script src="scripts/today.js"></script>
     <script>
-      function day(date) {
-        const weekDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-        return weekDays[date.getDay()];
-      }
       let now = new Date();
       alert(`Hello! Have a good ${day(now)}!`);
       console.log(`Hello! Have a good ${day(now)}!`);
